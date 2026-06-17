@@ -58,6 +58,18 @@ Results
 * TV advertising showed strong influence on Sales.
 * Social Media and Influencer variables were not statistically significant.
 
+* Final Regression Equation
+
+Sales =
+217.4784
++ 2.9735(Radio)
+- 0.1391(Social Media)
+-154.5736(TV_Low)
+-75.5947(TV_Medium)
++2.4948(Influencer_Mega)
++2.9391(Influencer_Micro)
++0.8015(Influencer_Nano)
+
 Business Recommendation
 
 The analysis indicates that TV and Radio advertising should be prioritized because they demonstrate the strongest impact on Sales. Social Media and Influencer campaigns showed limited statistical significance and should be reviewed before receiving additional budget allocation.
