@@ -1,5 +1,16 @@
-  marketing_sales_data
-Overview Multiple Linear Regression – Multi-Channel Marketing Analysis Project Overview In this project, you will analyze a marketing dataset using Python and statsmodels to build a Multiple Linear Regression model. 
+Sales =
+217.4784
++ 2.9735(Radio)
+- 0.1391(Social Media)
+-154.5736(TV_Low)
+-75.5947(TV_Medium)
++2.4948(Influencer_Mega)
++2.9391(Influencer_Micro)
++0.8015(Influencer_Nano)
+
+F-statistic = 760.4
+
+Prob(F-statistic) = 1.82e-282
 
 The Adjusted R-squared value of 0.903 indicates that approximately 90.3% of the variation in Sales can be explained by the marketing variables included in the model. This suggests that the model has very strong predictive power and provides a good fit for the data.
 
