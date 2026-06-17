@@ -1,3 +1,65 @@
+Multiple Linear Regression – Multi-Channel Marketing Analysis
+
+Project Overview
+
+This project uses Multiple Linear Regression to analyze the impact of various marketing channels on Sales. The objective is to determine which marketing activities contribute most significantly to sales performance and provide data-driven recommendations for budget allocation.
+
+Dataset
+
+The dataset contains the following variables:
+
+* TV
+* Radio
+* Social Media
+* Influencer
+* Sales
+
+Objectives
+
+* Perform exploratory data analysis
+* Check for missing values
+* Detect multicollinearity using Correlation Matrix and VIF
+* Build a Multiple Linear Regression model using statsmodels
+* Evaluate model performance using Adjusted R-squared and p-values
+* Validate model assumptions using diagnostic plots
+* Provide business recommendations based on model results
+
+Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Seaborn
+* Matplotlib
+* Statsmodels
+
+Environment Setup
+
+```bash
+pip install pandas numpy seaborn matplotlib statsmodels
+```
+
+Methodology
+
+1. Loaded and explored the dataset.
+2. Checked for missing values.
+3. Converted categorical variables into dummy variables.
+4. Performed correlation analysis.
+5. Calculated Variance Inflation Factor (VIF).
+6. Built a Multiple Linear Regression model using OLS.
+7. Generated residual and QQ plots to validate assumptions.
+8. Interpreted coefficients, Adjusted R-squared, and p-values.
+
+Results
+
+* Adjusted R-squared: 0.903
+* F-statistic: 760.4
+* Radio advertising was statistically significant.
+* TV advertising showed strong influence on Sales.
+* Social Media and Influencer variables were not statistically significant.
+
+* Final Regression Equation
+
 Sales =
 217.4784
 + 2.9735(Radio)
@@ -8,45 +70,6 @@ Sales =
 +2.9391(Influencer_Micro)
 +0.8015(Influencer_Nano)
 
-F-statistic = 760.4
+Business Recommendation
 
-Prob(F-statistic) = 1.82e-282
-
-The Adjusted R-squared value of 0.903 indicates that approximately 90.3% of the variation in Sales can be explained by the marketing variables included in the model. This suggests that the model has very strong predictive power and provides a good fit for the data.
-
-Social Media advertising and Influencer categories do not show statistically significant effects on Sales in this model because their p-values are greater than 0.05.
-
-Business Interpretation
-
-Holding all other variables constant, a one-unit increase in Radio advertising spend is associated with an increase of approximately 2.97 units in Sales.
-
-This is a positive effect.
-
-Holding all other variables constant, campaigns in the TV_Low category generate approximately 154.57 fewer Sales units compared to the TV_High category.
-
-Holding all other variables constant, campaigns in the TV_Medium category generate approximately 75.59 fewer Sales units compared to the TV_High category.
-
-Diagnostic Interpretation
-Linearity
-
-The residual plots indicate that the relationship between predictors and Sales is reasonably linear.
-
-Normality
-
-The QQ plot shows that residuals generally follow the expected normal distribution pattern, with only minor deviations.
-
-Homoscedasticity
-
-Residuals appear randomly scattered around zero, suggesting that the variance of residuals remains relatively constant across predicted values.
-
-Final Business Recommendation
-
-This is the most important section.
-
-Recommendation
-
-Based on the multiple linear regression analysis, TV advertising and Radio advertising are the strongest drivers of Sales. The model explains approximately 90.3% of Sales variation, indicating a highly reliable relationship between marketing activities and business outcomes.
-
-TV advertising should receive the highest priority because the TV_High category consistently outperforms both TV_Medium and TV_Low categories. Radio advertising should also be prioritized because it has a positive and statistically significant effect on Sales.
-
-Social Media and Influencer marketing variables were not statistically significant in this analysis. Therefore, management should consider allocating a larger portion of the marketing budget to TV and Radio campaigns while reassessing the effectiveness of Social Media and Influencer investments.
+The analysis indicates that TV and Radio advertising should be prioritized because they demonstrate the strongest impact on Sales. Social Media and Influencer campaigns showed limited statistical significance and should be reviewed before receiving additional budget allocation.
