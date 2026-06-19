@@ -1,3 +1,5 @@
+<img width="574" height="453" alt="qq plot of residuals" src="https://github.com/user-attachments/assets/a9b3f12a-0e35-4f74-a8ed-8f214715b6b0" />
+<img width="699" height="468" alt="residual plot" src="https://github.com/user-attachments/assets/3d6bb766-d204-401b-a9a6-97eb03b6e792" />
 Multiple Linear Regression – Multi-Channel Marketing Analysis
 
 Project Overview
